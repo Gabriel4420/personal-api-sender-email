@@ -21,9 +21,15 @@ export class EmailService {
     });
   }
 
-  async sendEmail( subject: string, message: string, name:string, phone:string, email:string) {
+  async sendEmail(
+    subject: string,
+    message: string,
+    name: string,
+    phone: string,
+    email: string,
+  ) {
     try {
-     const result = await this.transporter.sendMail({
+      const result = await this.transporter.sendMail({
         from: '"Portfolio Contact" <gabriel_rodrigues_perez@hotmail.com>',
         to: 'gabriel_rodrigues_perez@hotmail.com',
         subject: subject,
