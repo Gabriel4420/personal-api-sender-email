@@ -22,7 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^10.4.16",
     "@nestjs/config": "^4.0.1",
-    "@nestjs/core": "^11.1.11",
+    "@nestjs/core": "^11.1.18",
     "@nestjs/platform-express": "^11.1.11",
     "nodemailer": "^6.10.0",
     "reflect-metadata": "^0.2.0",
